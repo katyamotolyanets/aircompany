@@ -1,7 +1,7 @@
-const assert = require('chai').assert;
-const describe = require('mocha').describe;
-const airport = require( '../index').airport;
-const PassengerPlane = require('../Planes/PassengerPlane');
+import {assert} from 'chai';
+import {describe} from 'mocha';
+import {airport} from '../index.js'
+import PassengerPlane from '../Planes/PassengerPlane.js';
 
 let planeWithMaxPassengerCapacity = new PassengerPlane('Boeing-747', 980, 16100, 70500, 242);
 
