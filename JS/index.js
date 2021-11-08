@@ -2,9 +2,9 @@ const MilitaryPlane = require('./Planes/MilitaryPlane');
 const PassengerPlane = require('./Planes/PassengerPlane');
 const ExperimentalPlane = require('./Planes/ExperimentalPlane');
 const Airport = require('./Airport');
-const MilitaryTypes = require('./models/MilitaryTypes');
-const ExperimentalTypes = require('./models/ExperimentalTypes');
-const ClassificationLevel = require('./models/ClassificationLevel');
+const MilitaryTypes = require('./Models/MilitaryTypes');
+const ExperimentalTypes = require('./Models/ExperimentalTypes');
+const ClassificationLevel = require('./Models/ClassificationLevel');
 
 const planes = [
     new PassengerPlane('Boeing-737', 900, 12000, 60500, 164),

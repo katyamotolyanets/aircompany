@@ -1,8 +1,8 @@
 const PassengerPlane = require('./Planes/PassengerPlane');
 const MilitaryPlane = require('./Planes/MilitaryPlane');
 const ExperimentalPlane = require('./Planes/ExperimentalPlane');
-const MilitaryType = require('./models/MilitaryTypes');
-const ClassificationLevel = require('./models/ClassificationLevel');
+const MilitaryType = require('./Models/MilitaryTypes');
+const ClassificationLevel = require('./Models/ClassificationLevel');
 
 class Airport {
 
