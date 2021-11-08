@@ -1,4 +1,4 @@
-import Plane from './Plane.js';
+import Plane from './Plane.mjs';
 
 export default class MilitaryPlane extends Plane {
 

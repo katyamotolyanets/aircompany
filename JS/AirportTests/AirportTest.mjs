@@ -1,7 +1,7 @@
 import {assert} from 'chai';
 import {describe} from 'mocha';
-import {airport} from '../index.js'
-import PassengerPlane from '../Planes/PassengerPlane.js';
+import {airport} from '../index.mjs'
+import PassengerPlane from '../Planes/PassengerPlane.mjs';
 
 let planeWithMaxPassengerCapacity = new PassengerPlane('Boeing-747', 980, 16100, 70500, 242);
 
