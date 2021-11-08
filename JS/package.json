@@ -4,11 +4,11 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha AirportTests/AirportTest.js",
     "start": "node index.js"
   },
   "author": {
-    "name": "Sniazhana Matskevich"
+    "name": "Ekaterina Motolyanets"
   },
   "license": "",
   "engines": {

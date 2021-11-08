@@ -15,7 +15,7 @@ describe('Airport tests', () => {
         assert.equal(airport.getPassengerPlaneWithMaxPassengerCapacity(),planeWithMaxPassengerCapacity.passengersCapacity);
     });
 
-    it('is sorting by max load capacity correct', () => {
+    it('is planes sorting by max load capacity correct', () => {
         assert(airport.isSortingByMaxLoadCapacityCorrect());
     })
 
