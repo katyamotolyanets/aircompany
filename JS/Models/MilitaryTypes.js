@@ -4,4 +4,4 @@ const MilitaryTypes = {
     TYPE_TRANSPORT: 'Transport'
 };
 
-module.exports = MilitaryTypes;
+export {MilitaryTypes};

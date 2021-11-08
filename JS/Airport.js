@@ -1,8 +1,8 @@
-const PassengerPlane = require('./Planes/PassengerPlane');
-const MilitaryPlane = require('./Planes/MilitaryPlane');
-const ExperimentalPlane = require('./Planes/ExperimentalPlane');
-const MilitaryType = require('./Models/MilitaryTypes');
-const ClassificationLevel = require('./Models/ClassificationLevel');
+import PassengerPlane from './Planes/PassengerPlane.js';
+import MilitaryPlane from './Planes/MilitaryPlane.js';
+import ExperimentalPlane from './Planes/ExperimentalPlane.js';
+import {ClassificationLevel} from './Models/ClassificationLevel.js';
+import {MilitaryTypes} from './Models/MilitaryTypes.js';
 
 class Airport {
 
@@ -47,7 +47,7 @@ class Airport {
     getTransportMilitaryPlanes() {
         let transportMilitaryPlanes = [];
         for (let i = 0; i < this.getMilitaryPlanes().length; i++) {
-            if (this.getMilitaryPlanes()[i].getMilitaryType() === MilitaryType.TYPE_TRANSPORT) {
+            if (this.getMilitaryPlanes()[i].getMilitaryType() === MilitaryTypes.TYPE_TRANSPORT) {
                 transportMilitaryPlanes.push(this.getMilitaryPlanes()[i]);
             }
         }
@@ -57,7 +57,7 @@ class Airport {
     getBomberMilitaryPlanes() {
         let bomberMilitaryPlanes = [];
         for (let i = 0; i < this.getMilitaryPlanes().length; i++) {
-            if (this.getMilitaryPlanes()[i].getMilitaryType() === MilitaryType.TYPE_BOMBER) {
+            if (this.getMilitaryPlanes()[i].getMilitaryType() === MilitaryTypes.TYPE_BOMBER) {
                 bomberMilitaryPlanes.push(this.getMilitaryPlanes()[i]);
             }
         }
@@ -76,12 +76,12 @@ class Airport {
 
     hasBomberPlanes() {
         return this.getBomberMilitaryPlanes()
-            .filter(militaryPlane => militaryPlane.getMilitaryType() === MilitaryType.TYPE_BOMBER).length > 0;
+            .filter(militaryPlane => militaryPlane.getMilitaryType() === MilitaryTypes.TYPE_BOMBER).length > 0;
     }
 
     hasTransportPlanes() {
         return this.getTransportMilitaryPlanes()
-            .filter(militaryPlane => militaryPlane.getMilitaryType() === MilitaryType.TYPE_TRANSPORT).length > 0;
+            .filter(militaryPlane => militaryPlane.getMilitaryType() === MilitaryTypes.TYPE_TRANSPORT).length > 0;
     }
 
     hasExperimentalPlanesClassificationHigherThanUnclassified() {
@@ -117,4 +117,4 @@ class Airport {
     }
 }
 
-module.exports = Airport;
+export default Airport;

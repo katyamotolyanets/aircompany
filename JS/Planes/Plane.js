@@ -1,4 +1,4 @@
-class Plane {
+export default class Plane {
 
     constructor(model, maxSpeed, maxFlightDistance, maxLoadCapacity) {
         this.maxSpeed = maxSpeed;
@@ -17,6 +17,5 @@ class Plane {
     getMaxLoadCapacity() {
         return this.maxLoadCapacity;
     }
-}
+};
 
-module.exports = Plane;

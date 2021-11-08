@@ -1,10 +1,10 @@
-const MilitaryPlane = require('./Planes/MilitaryPlane');
-const PassengerPlane = require('./Planes/PassengerPlane');
-const ExperimentalPlane = require('./Planes/ExperimentalPlane');
-const Airport = require('./Airport');
-const MilitaryTypes = require('./Models/MilitaryTypes');
-const ExperimentalTypes = require('./Models/ExperimentalTypes');
-const ClassificationLevel = require('./Models/ClassificationLevel');
+import PassengerPlane from './Planes/PassengerPlane.js';
+import ExperimentalPlane from './Planes/ExperimentalPlane.js';
+import MilitaryPlane from './Planes/MilitaryPlane.js';
+import Airport from './Airport.js';
+import {ClassificationLevel} from './Models/ClassificationLevel.js';
+import {MilitaryTypes} from './Models/MilitaryTypes.js';
+import {ExperimentalTypes} from './Models/ExperimentalTypes.js';
 
 const planes = [
     new PassengerPlane('Boeing-737', 900, 12000, 60500, 164),
@@ -34,5 +34,5 @@ let airport = new Airport(planes);
     console.log(`Plane with max passenger capacity: ${Airport.print(passengerAirport.getPassengerPlaneWithMaxPassengerCapacity())}`);
 })();
 
-module.exports = { airport };
+export {airport};
 

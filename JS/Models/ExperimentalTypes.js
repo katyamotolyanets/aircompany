@@ -5,4 +5,4 @@ const ExperimentalTypes   = {
     VTOL: "Vtol"
 };
 
-module.exports = ExperimentalTypes ;
+export {ExperimentalTypes} ;

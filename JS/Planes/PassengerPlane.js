@@ -1,4 +1,4 @@
-const Plane = require('./Plane');
+import Plane from './Plane.js';
 
 class PassengerPlane extends Plane {
 
@@ -12,4 +12,4 @@ class PassengerPlane extends Plane {
     }
 }
 
-module.exports = PassengerPlane;
+export default PassengerPlane;
