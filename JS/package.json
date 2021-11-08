@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "start": "node --experimental-modules index.js"
   },
   "author": {
     "name": "Ekaterina Motolyanets"
