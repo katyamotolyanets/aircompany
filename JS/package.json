@@ -7,7 +7,6 @@
     "test": "mocha",
     "test-junit": "mocha --reporter mocha-junit-reporter",
     "test-html": "mocha --reporter mochawesome",
-    "test-jenkins": "mocha --colors --reporter mocha-jenkins-reporter",
     "start": "node --experimental-modules index.mjs"
   },
   "author": {
@@ -20,14 +19,9 @@
   },
   "devDependencies": {
     "chai": "^4.3.4",
-    "jenkins-mocha": "latest",
     "mocha": "^9.1.3",
     "mocha-junit-reporter": "^2.0.2",
-    "mochawesome": "^7.0.1",
-    "mocha-jenkins-reporter": "6.14.15"
+    "mochawesome": "^7.0.1"
   },
-  "type": "module",
-  "dependencies": {
-    "mocha-jenkins-reporter": "^0.4.7"
-  }
+  "type": "module"
 }

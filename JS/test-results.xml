@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0110" tests="5" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-11-09T12:40:17" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0030" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-11-09T14:32:15" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Airport tests" timestamp="2021-11-09T12:40:17" tests="5" file="D:\3 курс\epam\Новая папка\aircompany\JS\AirportTests\AirportTest.mjs" time="0.0080" failures="0">
-    <testcase name="Airport tests airport has at least one military plane with transport type" time="0.0020" classname="airport has at least one military plane with transport type">
+  <testsuite name="Airport tests" timestamp="2021-11-09T14:32:15" tests="5" file="D:\3 курс\epam\Новая папка\aircompany\JS\AirportTests\AirportTest.mjs" time="0.0030" failures="0">
+    <testcase name="Airport tests airport has at least one military plane with transport type" time="0.0000" classname="airport has at least one military plane with transport type">
     </testcase>
-    <testcase name="Airport tests does passenger plane have max capacity" time="0.0010" classname="does passenger plane have max capacity">
+    <testcase name="Airport tests does passenger plane have max capacity" time="0.0000" classname="does passenger plane have max capacity">
     </testcase>
-    <testcase name="Airport tests is planes sorting by max load capacity correct" time="0.0010" classname="is planes sorting by max load capacity correct">
+    <testcase name="Airport tests is planes sorting by max load capacity correct" time="0.0000" classname="is planes sorting by max load capacity correct">
     </testcase>
     <testcase name="Airport tests airport has at least one Bomber in Military Planes" time="0.0010" classname="airport has at least one Bomber in Military Planes">
     </testcase>
