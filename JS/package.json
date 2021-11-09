@@ -7,6 +7,7 @@
     "test": "mocha",
     "test-junit": "mocha --reporter mocha-junit-reporter",
     "test-html": "mocha --reporter mochawesome",
+    "test-jenkins": "mocha --colors --reporter mocha-jenkins-reporter",
     "start": "node --experimental-modules index.mjs"
   },
   "author": {
@@ -24,5 +25,8 @@
     "mocha-junit-reporter": "^2.0.2",
     "mochawesome": "^7.0.1"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "mocha-jenkins-reporter": "^0.4.7"
+  }
 }
