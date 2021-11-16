@@ -1,4 +1,4 @@
-import Plane from './Plane.mjs';
+import Plane from './plane.mjs';
 
 export default class ExperimentalPlane extends Plane
 {

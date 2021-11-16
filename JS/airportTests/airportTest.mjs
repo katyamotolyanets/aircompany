@@ -1,7 +1,7 @@
 import {assert} from 'chai';
 import {describe} from 'mocha';
 import {airport} from '../index.mjs'
-import PassengerPlane from '../Planes/PassengerPlane.mjs';
+import PassengerPlane from '../planes/passengerPlane.mjs';
 
 let planeWithMaxPassengerCapacity = new PassengerPlane('Boeing-747', 980, 16100, 70500, 242);
 
@@ -19,7 +19,7 @@ describe('Airport tests', () => {
         assert(airport.isSortingByMaxLoadCapacityCorrect());
     })
 
-    it('airport has at least one Bomber in Military Planes', () => {
+    it('airport has at least one Bomber in Military planes', () => {
         assert(airport.hasBomberPlanes());
     })
 

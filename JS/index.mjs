@@ -1,10 +1,10 @@
-import PassengerPlane from './Planes/PassengerPlane.mjs';
-import ExperimentalPlane from './Planes/ExperimentalPlane.mjs';
-import MilitaryPlane from './Planes/MilitaryPlane.mjs';
-import Airport from './Airport.mjs';
-import {ClassificationLevel} from './Models/ClassificationLevel.mjs';
-import {MilitaryTypes} from './Models/MilitaryTypes.mjs';
-import {ExperimentalTypes} from './Models/ExperimentalTypes.mjs';
+import PassengerPlane from './planes/passengerPlane.mjs';
+import ExperimentalPlane from './planes/experimentalPlane.mjs';
+import MilitaryPlane from './planes/militaryPlane.mjs';
+import Airport from './airport.mjs';
+import {ClassificationLevel} from './models/classificationLevel.mjs';
+import {MilitaryTypes} from './models/militaryTypes.mjs';
+import {ExperimentalTypes} from './models/experimentalTypes.mjs';
 
 const planes = [
     new PassengerPlane('Boeing-737', 900, 12000, 60500, 164),

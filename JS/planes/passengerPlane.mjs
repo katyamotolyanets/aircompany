@@ -1,4 +1,4 @@
-import Plane from './Plane.mjs';
+import Plane from './plane.mjs';
 
 class PassengerPlane extends Plane {
 

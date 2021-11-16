@@ -1,8 +1,8 @@
-import PassengerPlane from './Planes/PassengerPlane.mjs';
-import MilitaryPlane from './Planes/MilitaryPlane.mjs';
-import ExperimentalPlane from './Planes/ExperimentalPlane.mjs';
-import {ClassificationLevel} from './Models/ClassificationLevel.mjs';
-import {MilitaryTypes} from './Models/MilitaryTypes.mjs';
+import PassengerPlane from './planes/passengerPlane.mjs';
+import MilitaryPlane from './planes/militaryPlane.mjs';
+import ExperimentalPlane from './planes/experimentalPlane.mjs';
+import {ClassificationLevel} from './models/classificationLevel.mjs';
+import {MilitaryTypes} from './models/militaryTypes.mjs';
 
 class Airport {
 
